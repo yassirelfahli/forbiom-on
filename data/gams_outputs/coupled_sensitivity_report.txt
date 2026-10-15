@@ -1,0 +1,29 @@
+"Coupled sensitivity - MT demand (CLT+Glulam) x lumber price, 6 regions"
+
+"Scenario: ","CM_D100_PD5"
+"  CLTdemMult ",2.0000,"  LumberMult ",0.9500,"  Obj ",2988.4016,"  TotQty ",3570.15,"  TotRev ",2659.0455
+"  ","TroutLake"," Qty ",313.23," Rev ",233.8329
+"  ","Abitibi"," Qty ",1173.47," Rev ",873.2031
+"  ","Algoma"," Qty ",606.87," Rev ",452.5004
+"  ","Kenora"," Qty ",562.76," Rev ",418.8073
+"  ","Nipissing"," Qty ",498.54," Rev ",371.3670
+"  ","Algonquin"," Qty ",415.28," Rev ",309.3348
+
+"Scenario: ","CM_D100_PI10"
+"  CLTdemMult ",2.0000,"  LumberMult ",1.1000,"  Obj ",3404.3757,"  TotQty ",3570.15,"  TotRev ",2659.0455
+"  ","TroutLake"," Qty ",313.23," Rev ",233.8329
+"  ","Abitibi"," Qty ",1173.47," Rev ",873.2031
+"  ","Algoma"," Qty ",606.87," Rev ",452.5004
+"  ","Kenora"," Qty ",562.76," Rev ",418.8073
+"  ","Nipissing"," Qty ",498.54," Rev ",371.3670
+"  ","Algonquin"," Qty ",415.28," Rev ",309.3348
+
+"Scenario: ","CM_D200_PD10"
+"  CLTdemMult ",3.0000,"  LumberMult ",0.9000,"  Obj ",3499.0473,"  TotQty ",5355.22,"  TotRev ",3988.5682
+"  ","TroutLake"," Qty ",469.85," Rev ",350.7494
+"  ","Abitibi"," Qty ",1760.20," Rev ",1309.8046
+"  ","Algoma"," Qty ",910.30," Rev ",678.7506
+"  ","Kenora"," Qty ",844.15," Rev ",628.2109
+"  ","Nipissing"," Qty ",747.81," Rev ",557.0504
+"  ","Algonquin"," Qty ",622.92," Rev ",464.0022
+
