@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+*.log
+*.lst
+*.lxi
+*.gdx
+*.gpkg
+.DS_Store
+Thumbs.db
+~$*
+_report_build/
+*.tmp

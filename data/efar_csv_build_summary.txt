@@ -1,0 +1,10 @@
+Source workbook: c:\Users\dell\OneDrive\Bureau\Rasoul\Abdelhak\eFAR_Summary_Data_16Sept2024.xlsx
+Crosswalk used: C:\Users\dell\OneDrive\Bureau\Rasoul\Papers\Forbiom\input\efar_region_crosswalk_template.csv
+Units: assumed eFAR m3/year converted to FORBIOM MILLION m3/year (divide by 1,000,000).
+Time treatment: only 2020 observed in this file; values carried flat to 2020..2030.
+Rows written:
+  ef_millCap.csv: 44
+  ef_demandCapBase.csv: 44
+  ef_arcCap.csv: 22
+  ef_harvestCost_y.csv: header-only
+  ef_transportCost.csv: header-only

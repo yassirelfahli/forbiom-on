@@ -1,0 +1,59 @@
+{
+  "strategy": {
+    "name": "Regionally differentiated portfolio",
+    "techs": {
+      "mt_hub": [
+        "TroutLake",
+        "Abitibi",
+        "Algoma",
+        "Kenora",
+        "Nipissing",
+        "Algonquin"
+      ],
+      "spoke": [
+        "TroutLake",
+        "Abitibi",
+        "Algoma",
+        "Kenora",
+        "Nipissing",
+        "Algonquin"
+      ],
+      "bioheat": [
+        "TroutLake",
+        "Abitibi",
+        "Algoma",
+        "Kenora",
+        "Nipissing",
+        "Algonquin"
+      ],
+      "pellet": [
+        "TroutLake",
+        "Abitibi"
+      ]
+    },
+    "grant": {
+      "mt_hub": 0.15,
+      "spoke": 0.4,
+      "bioheat": 0.5,
+      "pellet": 0.1
+    },
+    "equity": {
+      "mt_hub": 0.2,
+      "spoke": 0.51,
+      "bioheat": 0.51,
+      "pellet": 0.2
+    },
+    "capacity_building": true,
+    "ind_priority": true,
+    "procurement": 0.25,
+    "clean_heat_incentive": 50.0
+  },
+  "regional_choice": {
+    "TroutLake": "full",
+    "Abitibi": "full",
+    "Algoma": "no pellet plant",
+    "Kenora": "no pellet plant",
+    "Nipissing": "no pellet plant",
+    "Algonquin": "no pellet plant"
+  }
+}
