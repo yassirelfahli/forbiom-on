@@ -12,13 +12,13 @@ Preliminary results package for **FORBIOM-ON** (GAMS NLP) and **FORBIOM-ABM** (P
 
 | Path | Description |
 |------|-------------|
-| [`report/`](report/) | Utilization study, LCA/economic-impact assessment, and preliminary-results DOCX/PDF |
+| [`report/`](report/) | Utilization study and preliminary-results DOCX/PDF |
 | [`gams/`](gams/) | FORBIOM-ON optimization model (`SA15.gms`, `FORBIOM_ON.gms`) and eFAR bridge scripts |
 | [`abm/`](abm/) | FORBIOM-ABM simulation (`abm.py`), calibration, experiments, and summary tables |
-| [`scripts/`](scripts/) | FRI processing, report builders, and mapping utilities |
+| [`scripts/`](scripts/) | FRI processing, report builder, and mapping utilities |
 | [`data/`](data/) | Model-ready CSV inputs and GAMS/ABM summary outputs |
 | [`figures/`](figures/) | Figures used in the utilization report |
-| [`docs/`](docs/) | Appendix guide, ABM detailed results, and LCA/economic-impact methods-and-data paper |
+| [`docs/`](docs/) | Appendix guide and ABM detailed results |
 
 ---
 
@@ -29,21 +29,13 @@ Preliminary results package for **FORBIOM-ON** (GAMS NLP) and **FORBIOM-ABM** (P
 Finished reports are in [`report/`](report/):
 
 - [`report/FORBIOM-ON_Activity3_ABM_Report.docx`](report/FORBIOM-ON_Activity3_ABM_Report.docx) — utilization strategies (agent-based model)
-- [`report/FORBIOM-ON_Activity4_LCA_Economic_Impact_Report.docx`](report/FORBIOM-ON_Activity4_LCA_Economic_Impact_Report.docx) — inventory-stage LCA and economic impact
 - [`report/FORBIOM-ON_Preliminary_Results_Report_v2.docx`](report/FORBIOM-ON_Preliminary_Results_Report_v2.docx) — earlier preliminary results
 - [`report/FORBIOM-ON_Preliminary_Results_Report.pdf`](report/FORBIOM-ON_Preliminary_Results_Report.pdf)
 
-Methods and data for the LCA/economic-impact assessment:
-
-- [`docs/LCA_Economic_Impact_Methods_and_Data.md`](docs/LCA_Economic_Impact_Methods_and_Data.md)
-- [`docs/LCA_Economic_Impact_Methods_and_Data.docx`](docs/LCA_Economic_Impact_Methods_and_Data.docx)
-
-To regenerate (Python 3.11+, `python-docx`; Word optional for TOC update):
+To regenerate the utilization DOCX (Python 3.11+, `python-docx`, Pillow; Word optional for TOC update):
 
 ```bash
 python scripts/build_forbiom_report_docx.py
-python scripts/build_lca_econ_report_docx.py
-python scripts/build_lca_methods_paper_docx.py
 ```
 
 > Note: the utilization report builder currently expects some figure paths relative to the original project layout. Prefer the packaged DOCX in `report/` unless you adapt those paths.
@@ -95,11 +87,9 @@ The two models are currently soft-linked; a co-evolutionary coupling (harvest in
 
 ## Citation
 
-If you use this material, please cite the relevant report:
+If you use this material, please cite the utilization report:
 
 > Yousefpour, R. & Elfahli, Y. (2026). *Biomass utilization strategies for Ontario: plants, harvest, jobs and Indigenous income, 2026–2045* (FORBIOM-ABM).
-
-> Yousefpour, R. & Elfahli, Y. (2026). *Environmental life cycle assessment and economic impact of biomass-based construction products* (inventory stage). Methods and data: `docs/LCA_Economic_Impact_Methods_and_Data.md`.
 
 ---
 

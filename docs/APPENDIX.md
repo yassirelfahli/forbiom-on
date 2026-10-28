@@ -4,13 +4,13 @@ This appendix accompanies the FORBIOM-ON reports. The full shareable package liv
 
 ## A.1 What is included
 
-1. **Reports** — Utilization study (agent-based strategies S0–S6), inventory-stage life-cycle and economic-impact assessment, and earlier preliminary-results DOCX/PDF.
+1. **Reports** — Utilization study (agent-based strategies S0–S6) and earlier preliminary-results DOCX/PDF.
 2. **GAMS models** — `SA15.gms` and `FORBIOM_ON.gms` (main NLP), plus eFAR→FORBIOM bridge scripts.
 3. **Agent-based model** — Python source (`abm.py`, `calibrate.py`, `experiments.py`, …), calibration CSVs, and summary result tables for strategies S0–S6.
-4. **Processing & mapping scripts** — FRI pipeline (`process_fri_data.py`), report builders, and map/heatmap utilities.
+4. **Processing & mapping scripts** — FRI pipeline (`process_fri_data.py`), report builder, and map/heatmap utilities.
 5. **Derived data** — CSV/TXT summaries of harvest, demand, and sensitivity runs (large FRI geodatabases and GDX binaries are omitted).
 6. **Figures** — PNGs embedded in the utilization report.
-7. **Extended docs** — ABM simulation report, detailed-results appendix, and the LCA/economic-impact methods-and-data paper (`docs/LCA_Economic_Impact_Methods_and_Data.md`).
+7. **Extended docs** — ABM simulation report and detailed-results appendix.
 
 ## A.2 What is not redistributed
 
@@ -26,8 +26,6 @@ This appendix accompanies the FORBIOM-ON reports. The full shareable package liv
 | ABM calibration tables | `python abm/calibrate.py` (needs raw extracts locally) |
 | ABM experiments | `python abm/experiments.py` |
 | Utilization report DOCX | `python scripts/build_forbiom_report_docx.py` |
-| LCA / economic-impact report | `python scripts/build_lca_econ_report_docx.py` |
-| Methods-and-data paper | `python scripts/build_lca_methods_paper_docx.py` |
 
 ## A.4 Contact
 
